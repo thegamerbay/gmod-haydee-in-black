@@ -1,7 +1,7 @@
 <div align="center">
   <img src="gmod-haydee-in-black.jpg" alt="Logo" width="256" height="256">
   <h1>Haydee in Black [P.M]</h1>
-  <p><b>A sleek, black retexture of the Haydee playermodel for Garry's Mod.</b></p>
+  <p><b>A stylish retexture featuring black tights for the Haydee playermodel in Garry's Mod.</b></p>
   
   [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-171a21?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=2006320691)
   <br/>
@@ -14,13 +14,13 @@
 
 ## 📖 Overview
 
-**Haydee in Black [P.M]** is a stylish Garry's Mod addon that provides a custom black variant of the popular Haydee playermodel. This addon delivers a new, dark aesthetic for the character, perfect for players looking for a sleeker look while retaining all the qualities of the original port.
+**Haydee in Black [P.M]** is a Garry's Mod addon that provides a custom retexture of the popular Haydee playermodel, specifically outfitting her in stylish black tights. This addon delivers a new aesthetic for the character, perfect for players looking for a darker style while retaining all the qualities of the original port.
 
 ---
 
 ## ✨ Features
 
-* **Custom Retexture:** A high-quality black suit variation for the Haydee character.
+* **Custom Retexture:** Features high-quality black tights replacing the default leg textures.
 * **Full Playermodel Support:** Functions perfectly as a standard Garry's Mod playermodel (PM).
 * **Authentic Proportions:** Retains the exact model geometry and rigging of the original Haydee port.
 
