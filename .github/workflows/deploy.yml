@@ -1,0 +1,24 @@
+name: Deploy to Steam Workshop
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # Run only when creating tags like v1.0.0
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+
+      - name: Publish to Steam Workshop
+        uses: vurvdev/gmod-upload@master
+        with:
+          id: '2006320691'
+          config: 'addon.json'
+          changelog: "New release published via GitHub Actions. Version ${{ github.ref_name }}. See changes: https://github.com/thegamerbay/gmod-haydee-in-black/releases/tag/${{ github.ref_name }}"
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
